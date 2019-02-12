@@ -415,9 +415,6 @@ private:
 		DrawString(dx + 20, dy + 480, key_a, olc::BLACK, 2);
 		DrawString(dx + 20, dy + 520, key_s, olc::BLACK, 2);
 
-		//DrawString(dx + 30, dy + 580, to_string(lastSelectedBox.x), olc::BLACK, 2);
-		//DrawString(dx + 130, dy + 580, to_string(lastSelectedBox.y), olc::BLACK, 2);
-
 		FillCircle(dx + 160, dy + 40, 30, bUser1 ? olc::BLUE : olc::RED);
 	}
 
